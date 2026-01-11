@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "reactflow/dist/style.css";
+
+/* Your custom styles for Part 2 */
+.react-flow__handle {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #6366f1 !important;
+}
